@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionhandlerAndSerLog.WebAPI", "ExceptionhandlerAndSerLog.WebAPI.csproj", "{A971009D-299D-456A-9CE3-47DD49B6302F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDefaults1", "..\ServiceDefaults1\ServiceDefaults1.csproj", "{A654CC2A-7C42-45EF-A792-DD4DD1C2ED63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost1", "..\AppHost1\AppHost1.csproj", "{38FCE7E6-1345-4065-B9D0-955BC8927291}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A971009D-299D-456A-9CE3-47DD49B6302F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A971009D-299D-456A-9CE3-47DD49B6302F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A971009D-299D-456A-9CE3-47DD49B6302F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A971009D-299D-456A-9CE3-47DD49B6302F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A654CC2A-7C42-45EF-A792-DD4DD1C2ED63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A654CC2A-7C42-45EF-A792-DD4DD1C2ED63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A654CC2A-7C42-45EF-A792-DD4DD1C2ED63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A654CC2A-7C42-45EF-A792-DD4DD1C2ED63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FCE7E6-1345-4065-B9D0-955BC8927291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FCE7E6-1345-4065-B9D0-955BC8927291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FCE7E6-1345-4065-B9D0-955BC8927291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FCE7E6-1345-4065-B9D0-955BC8927291}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
