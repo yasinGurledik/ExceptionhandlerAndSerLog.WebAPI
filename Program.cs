@@ -24,6 +24,7 @@ builder.Host.UseSerilog(); //serilog çalýþtýrma alaný
 var app = builder.Build();
 
 app.MapDefaultEndpoints();
+
 app.UseExceptionHandler();//her api isteðin bir instance oluþýturur
 
 app.MapGet("/", (int age, UserService userService) =>
